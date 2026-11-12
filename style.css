@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+    font-family: Arial, sans-serif;
+  
+  
+    }
+
+    /*Barra de navegacion*/
+    navegacion {
+        background-color: deeppink;
+        margin: 0;
+        padding: 20px;
+    }
+
+        .navegacion ol {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: deeppink;
+            color: #121212;
+
+        }
