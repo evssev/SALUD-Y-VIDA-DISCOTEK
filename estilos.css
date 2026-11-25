@@ -1,0 +1,184 @@
+/* Estilos generales de toda la página */
+body {
+    background-color: #09090d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado principal */
+header {
+    text-align: center;
+    background-color: #14141f;
+    padding: 20px;
+    border: 2px solid #ff007f;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ff007f;
+    margin-top: 0;
+}
+
+.subtitulo {
+    color: #00f3ff;
+    font-size: 18px;
+}
+
+/* Menú de navegación */
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlace-cian {
+    color: #00f3ff;
+}
+
+.enlace-rosa {
+    color: #ff007f;
+}
+
+/* Líneas separadoras */
+hr {
+    border: 1px solid #33334d;
+}
+
+/* Secciones principales */
+section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titulo-cian {
+    color: #00f3ff;
+}
+
+.titulo-rosa {
+    color: #ff007f;
+}
+
+/* Tablas de la galería */
+.tabla-galeria {
+    margin: auto;
+    background-color: #12121a;
+    border: 2px solid #ff007f;
+    border-spacing: 6px;
+}
+
+.tabla-galeria-cian {
+    margin: auto;
+    background-color: #12121a;
+    border: 2px solid #00f3ff;
+    border-spacing: 6px;
+}
+
+td {
+    padding: 6px;
+}
+
+/* Estilos y tamaños de las fotos */
+.foto-cian {
+    width: 250px;
+    height: 180px;
+    border: 2px solid #00f3ff;
+    border-radius: 6px;
+}
+
+.foto-rosa {
+    width: 250px;
+    height: 180px;
+    border: 2px solid #ff007f;
+    border-radius: 6px;
+}
+
+.foto-pequena-cian {
+    width: 220px;
+    height: 160px;
+    border: 2px solid #00f3ff;
+    border-radius: 6px;
+}
+
+.foto-pequena-rosa {
+    width: 220px;
+    height: 160px;
+    border: 2px solid #ff007f;
+    border-radius: 6px;
+}
+
+.texto-rosa {
+    color: #ff007f;
+}
+
+.texto-cian {
+    color: #00f3ff;
+}
+
+/* Caja de información antes del formulario */
+.caja-info {
+    background-color: #14141f;
+    border: 1px solid #00f3ff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 60%;
+    margin: auto;
+}
+
+.caja-info ul {
+    text-align: left;
+    display: inline-block;
+}
+
+/* Tabla y campos del formulario */
+.tabla-formulario {
+    margin: auto;
+    background-color: #111111;
+    border: 2px solid #00f3ff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.etiqueta {
+    text-align: right;
+    color: #00f3ff;
+    padding: 8px;
+}
+
+.campo {
+    text-align: left;
+    padding: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    background-color: #1e1e2a;
+    color: #ffffff;
+    border: 1px solid #ff007f;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.celda-boton {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.boton-enviar {
+    background-color: #ff007f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    color: #bbbbbb;
+}

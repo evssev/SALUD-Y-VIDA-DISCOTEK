@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALUD Y VIDA DISCOTEK</title>
+    <!-- Aquí conectamos la hoja de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>LO MÁS CLÁSICO DE MEDELLÍN.</h1>
+    <p class="subtitulo"><b>SALUD Y VIDA DISCOTEK.</b></p>
+    <hr>
+    <nav>
+        <a href="#galeria" class="enlace-cian">Galería</a>
+        <span> | </span>
+        <a href="#contacto" class="enlace-rosa">Contacto y Reservas</a>
+    </nav>
+</header>
+
+<main>
+    <section id="galeria">
+        <h2 class="titulo-cian">Galería de Fotos</h2>
+        <p>Vive las mejores noches de perreo y rumba urbana en Medellín.</p>
+
+        <table class="tabla-galeria">
+            <tr>
+                <td><img src="https://estaticos.elcolombiano.com/binrepository/848x565/34c0/780d565/none/11101/BFDW/dsc08769_46441091_20241102204034.jpg" alt="Zona VIP" class="foto-cian"></td>
+                <td><img src="111.jpg" alt="Luces Neón" class="foto-rosa"></td>
+                <td><img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/R6VY4ZMB3NDS3HWHRLIA3IL5HM.png" alt="Luces Neón" class="foto-cian"></td>
+            </tr>
+            <tr>
+                <td class="texto-rosa"><b>DJs en ViVo</b></td>
+                <td class="texto-cian"><b>Escuela</b></td>
+                <td class="texto-rosa"><b>Zona VIP</b></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table class="tabla-galeria-cian">
+            <tr>
+                <td><img src="777.jpeg" alt="Zona VIP" class="foto-rosa"></td>
+                <td><img src="666.jpeg" alt="Luces Neón" class="foto-cian"></td>
+                <td><img src="555.jpeg" alt="Luces Neón" class="foto-rosa"></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table class="tabla-galeria">
+            <tr>
+                <td><img src="444.jpeg" alt="Zona VIP" class="foto-pequena-cian"></td>
+                <td><img src="222.jpeg" alt="Luces Neón" class="foto-pequena-rosa"></td>
+                <td><img src="333.jpeg" alt="Luces Neón" class="foto-pequena-cian"></td>
+                <td><img src="111.jpg" alt="Zona VIP" class="foto-pequena-rosa"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNrKPLg8ZVO53O9kbyevMNOuyOle-mMSFzPp2HPtMj3wFbArHlwk1x9I&s=10" alt="Luces Neón" class="foto-pequena-cian"></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table class="tabla-galeria-cian">
+            <tr>
+                <td><img src="888.jpeg" alt="Zona VIP" class="foto-pequena-rosa"></td>
+                <td><img src="111.jpg" alt="Luces Neón" class="foto-pequena-cian"></td>
+                <td><img src="aaa.jpg" alt="Luces Neón" class="foto-pequena-rosa"></td>
+                <td><img src="999.jpeg" alt="Zona VIP" class="foto-pequena-cian"></td>
+                <td><img src="eee.jpg" alt="Luces Neón" class="foto-pequena-rosa"></td>
+            </tr>
+        </table>
+    </section>
+
+    <br><hr><br>
+
+    <section id="contacto">
+        <h2 class="titulo-rosa">Formulario de Contacto y Reservas</h2>
+
+        <div class="caja-info">
+            <ul>
+                <li>Reserva tu mesa o palco para el fin de semana.</li>
+                <li>Inscríbete a nuestra escuela de Yingoteo ¡Primeras 3 sesiones gratis!</li>
+            </ul>
+            <p class="subtitulo"><b>SALUD Y VIDA DISCOTEK</b></p>
+        </div>
+
+        <br>
+
+        <form action="" method="POST">
+            <table class="tabla-formulario">
+                <tr>
+                    <td class="etiqueta"><b>Nombre:</b></td>
+                    <td class="campo"><input type="text" name="nombre" required placeholder="Escribe tu nombre"></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta"><b>Email:</b></td>
+                    <td class="campo"><input type="email" name="email" required placeholder="correo@ejemplo.com"></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta"><b>Fecha de Reserva:</b></td>
+                    <td class="campo"><input type="date" name="fecha" required></td>
+                </tr>
+                <tr>
+                    <td class="etiqueta"><b>Tipo de Mesa:</b></td>
+                    <td class="campo">
+                        <select name="tipo_mesa">
+                            <option value="general">Mesa General (1-4 personas)</option>
+                            <option value="vip">Zona VIP (5-8 personas)</option>
+                            <option value="palco">Palco Exclusivo (9+ personas)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="etiqueta" valign="top"><b>Mensaje:</b></td>
+                    <td class="campo">
+                        <textarea name="mensaje" rows="4" cols="30" placeholder="Describe brevemente tu solicitud..."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="celda-boton">
+                        <input type="submit" value="Enviar Reserva" class="boton-enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</main>
+
+<br><hr>
+
+<footer>
+    <p><small>Calle 10 # 36-24, El Poblado, Medellín, Colombia</small></p>
+    <p><small>© 2026 Salud y Vida Discotek. Todos los derechos reservados.</small></p>
+</footer>
+
+</body>
+</html>
